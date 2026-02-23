@@ -10,7 +10,7 @@ This project utilizes particles to render volume-based cursed techniques:
 * **Secret Technique: Hollow Purple**
     * **Visuals:** A chaotic singularity combining attraction and repulsion.
     * **Trigger:** "Pinch" gesture (Thumb + Index touching).
-* **Hollow Purple: Release Flick**
+* **Hollow Purple: Release**
     * **Visuals:** A long outward explosion using Hollow Purple particle color and shape.
     * **Trigger:** Hold Hollow Purple for at least 1 second, then perform a fast index-finger flick.
 * **Domain Expansion: Infinite Void**

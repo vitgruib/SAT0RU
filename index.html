@@ -249,14 +249,14 @@
         flickOnlyWindowMs: 280,
         maxWindowMs: 220,
         minLagMs: 45,
-        minDisplacement: 0.045,
+        minDisplacement: 0.040,
         maxDisplacement: 0.13,
-        minSpeed: 0.9,
+        minSpeed: 0.8,
         maxSpeed: 2.2,
         minStraightness: 0.65,
         maxStraightness: 0.92,
-        triggerScore: 0.78,
-        pulseMs: 150,
+        triggerScore: 0.72,
+        pulseMs: 180,
         refractoryMs: 220
     };
     const videoElement = document.querySelector('.input_video');
@@ -656,7 +656,7 @@
         else if(tech === 'purple') { glowColor = '#bb00ff'; nameEl.innerText = "Secret Technique: Hollow Purple"; baseBloomStrength = 4.0; }
         else if(tech === 'void') { glowColor = '#00ffff'; nameEl.innerText = "Domain Expansion: Infinite Void"; baseBloomStrength = 2.0; }
         else if(tech === 'red') { glowColor = '#ff3333'; nameEl.innerText = "Reverse Cursed Technique: Red"; baseBloomStrength = 2.5; }
-        else if(tech === 'flick') { glowColor = '#bb88ff'; nameEl.innerText = "Release Flick"; baseBloomStrength = 1.4; }
+        else if(tech === 'flick') { glowColor = '#bb88ff'; nameEl.innerText = "Hollow Purple: Release"; baseBloomStrength = 1.4; }
         else { glowColor = '#00ffff'; nameEl.innerText = "Neutral State"; baseBloomStrength = 1.0; }
         bloomPass.strength = baseBloomStrength;
 
